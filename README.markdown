@@ -5,6 +5,5 @@ configuration I'm willing to share.
 
 ## Screenshots
 
-![](images/snapshot72.png)
-![](images/snapshot76.png)
-![](images/snapshot74.png)
+![Shot of Konsole](images/snapshot76.png)
+![My Desktop](images/snapshot74.png)
