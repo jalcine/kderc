@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="48"
+   height="48"
+   id="svg3756"
+   version="1.1"
+   inkscape:version="0.48+devel r12859"
+   sodipodi:docname="tools-check-spelling.svg">
+  <defs
+     id="defs3758" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.9609375"
+     inkscape:cx="-103.41253"
+     inkscape:cy="118.67589"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1366"
+     inkscape:window-height="673"
+     inkscape:window-x="0"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata3761">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Capa 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-664.57143,-528.36218)">
+    <path
+       style="font-size:22.5px;font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#4d4d4d;fill-opacity:1;stroke:none;font-family:Helvetica 65 Medium;-inkscape-font-specification:'Helvetica 65 Medium, Heavy'"
+       d="m 24.15625,8 c -3.43897,0 -6.94376,0.57826 -9.625,2.09375 -2.68124,1.57377 -4.54389,4.13018 -4.71875,8.09375 l 9.25,0 c 0.4663,-2.56466 2.22922,-3.78125 4.96875,-3.78125 2.04007,0 4.78125,0.88303 4.78125,3.15625 0,1.86521 -0.93466,2.43152 -2.625,2.78125 -6.87796,1.3989 -17.59375,0.64936 -17.59375,10.5 0,1.834375 0.3916814,3.386319 1.09375,4.65625 l 13.375,-13.375 4.5,4.5 c 0.446004,0.446004 0.806524,0.006 1.125,-0.3125 l 9.46875,-9.46875 C 37.470709,9.4296935 30.941336,8 24.15625,8 Z"
+       transform="translate(664.57143,528.36218)"
+       id="path4267"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="scccsscscccccs" />
+    <path
+       style="fill:#4d4d4d;fill-opacity:1;stroke:none"
+       d="m 684.18301,558.86242 4.12588,4.12585 4.37389,4.37391 4.38515,-4.38519 9.53687,-9.53684 -4.37389,-4.37392 -9.53686,9.5369 -4.12588,-4.1259 L 684.18301,558.86242 Z"
+       id="rect1172-0"
+       inkscape:connector-curvature="0" />
+  </g>
+</svg>

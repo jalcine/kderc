@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="48"
+   height="48"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48+devel r12859"
+   sodipodi:docname="format-text-bold.svg">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="2.7504153"
+     inkscape:cx="-77.827009"
+     inkscape:cy="46.491122"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1366"
+     inkscape:window-height="673"
+     inkscape:window-x="0"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Capa 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-1004.3622)">
+    <path
+       inkscape:connector-curvature="0"
+       id="path3246"
+       style="font-size:54.64480972px;font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#4d4d4d;fill-opacity:1;stroke:none;font-family:Helvetica 65 Medium;-inkscape-font-specification:'Helvetica 65 Medium, Heavy'"
+       d="m 18.836065,1034.4004 c 0,-2.2404 1.748634,-3.1148 3.825137,-3.6066 2.021858,-0.5464 4.42623,-0.7103 5.737705,-1.53 0.218579,5.847 -1.256831,8.3606 -5.68306,8.3606 -2.076503,0 -3.879782,-0.9289 -3.879782,-3.224 z m 0.546448,-11.4754 c 0.437159,-2.4044 2.076503,-3.5519 4.644809,-3.5519 1.912569,0 4.480875,0.8197 4.480875,2.9508 0,1.7486 -0.874317,2.2951 -2.459017,2.623 -6.448087,1.3114 -16.5027324,0.601 -16.5027324,9.836 0,5.847 4.2622954,8.5793 9.6721314,8.5793 3.387978,0 6.939891,-0.9837 9.344262,-3.4973 0.10929,0.9289 0.21858,1.8033 0.546448,2.6776 l 9.344263,0 c -1.092896,-2.2405 -1.092896,-4.8634 -1.092896,-7.2678 l 0,-12.4044 c 0,-8.0327 -6.502733,-9.5081 -13.224044,-9.5081 -3.224044,0 -6.502733,0.5464 -9.016394,1.9672 -2.513661,1.4754 -4.262295,3.8797 -4.426229,7.5956 l 8.688524,0 z" />
+  </g>
+</svg>
