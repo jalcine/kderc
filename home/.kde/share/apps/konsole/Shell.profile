@@ -1,8 +1,8 @@
 [Appearance]
 AntiAliasFonts=true
-BoldIntense=false
-ColorScheme=base16-atelierheath
-Font=monoOne,9,-1,5,50,0,0,0,0,0
+BoldIntense=true
+ColorScheme=base16-harmonic16
+Font=monoOne,8.5,-1,5,50,0,0,0,0,0
 LineSpacing=0
 
 [Cursor Options]
@@ -20,6 +20,7 @@ TerminalRows=40
 [Interaction Options]
 OpenLinksByDirectClickEnabled=true
 TrimTrailingSpacesInSelectedText=true
+UnderlineLinksEnabled=true
 
 [Scrolling]
 HistoryMode=2
