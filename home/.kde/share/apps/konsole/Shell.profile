@@ -2,7 +2,7 @@
 AntiAliasFonts=true
 BoldIntense=true
 ColorScheme=base16-harmonic16
-Font=monoOne,8.5,-1,5,50,0,0,0,0,0
+Font=monoOne,8.6,-1,5,50,0,0,0,0,0
 LineSpacing=0
 
 [Cursor Options]
