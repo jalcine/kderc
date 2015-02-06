@@ -1,7 +1,7 @@
 [Appearance]
 AntiAliasFonts=true
 BoldIntense=true
-ColorScheme=base16-harmonic16
+ColorScheme=base16-shapeshifter
 Font=monoOne,8.6,-1,5,50,0,0,0,0,0
 LineSpacing=0
 
