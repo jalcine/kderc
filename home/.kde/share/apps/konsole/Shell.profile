@@ -1,7 +1,7 @@
 [Appearance]
 AntiAliasFonts=true
 BoldIntense=true
-ColorScheme=base16-shapeshifter
+ColorScheme=base16-embers
 Font=monoOne,8.6,-1,5,50,0,0,0,0,0
 LineSpacing=0
 
@@ -29,3 +29,4 @@ ScrollFullPage=true
 
 [Terminal Features]
 BlinkingCursorEnabled=true
+FlowControlEnabled=false
