@@ -1,7 +1,7 @@
 [Appearance]
 AntiAliasFonts=true
 BoldIntense=true
-ColorScheme=base16-bright
+ColorScheme=base16-chalk
 Font=monoOne,8.6,-1,5,50,0,0,0,0,0
 LineSpacing=0
 
@@ -15,7 +15,8 @@ DefaultEncoding=UTF-8
 Environment=TERM=xterm-256color
 Name=Default
 Parent=FALLBACK/
-TerminalRows=40
+TerminalColumns=160
+TerminalRows=50
 
 [Interaction Options]
 OpenLinksByDirectClickEnabled=true
