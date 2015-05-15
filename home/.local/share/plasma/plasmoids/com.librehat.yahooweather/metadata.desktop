@@ -1,0 +1,19 @@
+[Desktop Entry]
+Name=Yahoo! Weather Widget
+Name[bg]=Yahoo джаджа
+Comment=A Simple Weather Monitor.
+Comment[bg]=Джада за времето
+Encoding=UTF-8
+Icon=weather-clouds
+ServiceTypes=Plasma/Applet, Plasma/PopupApplet
+Type=Service
+Keywords=weather;forecast;yahoo;
+X-KDE-PluginInfo-Author=Symeon Huang
+X-KDE-PluginInfo-Email=hzwhuang@gmail.com
+X-KDE-PluginInfo-Name=com.librehat.yahooweather
+X-KDE-PluginInfo-License=GPLv3
+X-KDE-PluginInfo-Category=Environment and Weather
+X-KDE-PluginInfo-Version=5.0.0
+X-KDE-PluginInfo-Website=http://en.librehat.com
+X-Plasma-API=declarativeappletscript
+X-Plasma-MainScript=ui/main.qml
