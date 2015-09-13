@@ -1,6 +1,6 @@
 [Appearance]
-ColorScheme=mdark
-Font=monoOne,9,-1,5,50,0,0,0,0,0
+ColorScheme=WhiteOnBlack
+Font=Inconsolata for Powerline Plus Nerd File Types Mono,9,-1,5,52,0,0,0,0,0
 
 [General]
 Directory=~/code
