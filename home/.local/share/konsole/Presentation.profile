@@ -1,6 +1,6 @@
 [Appearance]
-ColorScheme=Tomorrow
-Font=Meslo LG S DZ for Powerline,15,-1,5,50,0,0,0,0,0
+ColorScheme=mdark
+Font=monoOne,15,-1,5,50,0,0,0,0,0
 
 [General]
 Name=Presentation
