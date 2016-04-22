@@ -1,6 +1,8 @@
 [Appearance]
-ColorScheme=WhiteOnBlack
-Font=Inconsolata for Powerline Plus Nerd File Types Mono,9,-1,5,52,0,0,0,0,0
+AntiAliasFonts=true
+BoldIntense=true
+ColorScheme=Molokai
+Font=monoOne,10,-1,5,50,0,0,0,0,0
 
 [General]
 Directory=~/code
