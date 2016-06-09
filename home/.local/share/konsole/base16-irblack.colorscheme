@@ -1,53 +1,52 @@
-
 [Background]
 Color=0,0,0
 
 [BackgroundIntense]
 Color=126,125,119
 
-[Color0] 
+[Color0]
 Color=0,0,0
 
 [Color0Intense]
 Color=126,125,119
 
-[Color1] 
+[Color1]
 Color=255,108,96
 
 [Color1Intense]
 Color=254,179,167
 
-[Color2] 
+[Color2]
 Color=168,255,96
 
 [Color2Intense]
 Color=210,253,167
 
-[Color3] 
+[Color3]
 Color=255,255,182
 
 [Color3Intense]
 Color=254,253,210
 
-[Color4] 
+[Color4]
 Color=150,203,254
 
 [Color4Intense]
 Color=201,227,246
 
-[Color5] 
+[Color5]
 Color=255,115,253
 
 [Color5Intense]
 Color=254,183,245
 
-[Color6] 
+[Color6]
 Color=198,197,254
 
 [Color6Intense]
 Color=225,224,246
 
-[Color7] 
+[Color7]
 Color=181,179,170
 
 [Color7Intense]
@@ -61,5 +60,5 @@ Color=217,215,204
 
 [General]
 Description=Base16 IR Black
-Opacity=1
+Opacity=0.89000000000000001
 Wallpaper=
