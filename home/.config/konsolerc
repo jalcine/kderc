@@ -1,0 +1,37 @@
+[Desktop Entry]
+DefaultProfile=Regular.profile
+
+[Favorite Profiles]
+Favorites=Regular.profile,Presentation.profile
+
+[FileLocation]
+scrollbackUseCacheLocation=true
+scrollbackUseSystemLocation=false
+
+[KonsoleWindow]
+AllowMenuAccelerators=true
+ShowMenuBarByDefault=false
+ShowWindowTitleOnTitleBar=true
+
+[MainWindow]
+Height 1024=880
+Height 1080=756
+Height 1200=572
+Height 1920=1920
+Height 900=763
+MenuBar=Disabled
+State=AAAA/wAAAAD9AAAAAAAABkAAAANiAAAABAAAAAQAAAAIAAAACPwAAAAA
+ToolBarsMovable=Disabled
+Width 1200=1200
+Width 1280=1274
+Width 1600=1441
+Width 1920=1060
+Window-Maximized 1080x1920=true
+Window-Maximized 1200x1920=true
+Window-Maximized 720x1280=true
+Window-Maximized 900x1440=true
+Window-Maximized 900x1600=true
+
+[TabBar]
+NewTabBehavior=PutNewTabAfterCurrentTab
+TabBarVisibility=ShowTabBarWhenNeeded

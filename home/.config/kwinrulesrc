@@ -1,0 +1,126 @@
+[1]
+Description=Application settings for spotify
+activity=7e98d366-8bdd-411c-8bd8-17585a5fda1b
+activityrule=2
+clientmachine=arno.jalcine
+clientmachinematch=0
+wmclass=spotify
+wmclasscomplete=false
+wmclassmatch=1
+
+[10]
+Description=Application settings for net-minecraft-bootstrap-bootstrap
+activity=7e98d366-8bdd-411c-8bd8-17585a5fda1b
+activityrule=2
+clientmachine=arno.jalcine
+clientmachinematch=0
+wmclass=sun-awt-x11-xframepeer net-minecraft-bootstrap-bootstrap
+wmclasscomplete=true
+wmclassmatch=1
+
+[2]
+Description=Application settings for zeal
+activity=f8954c15-c2b5-4cc6-8409-4b1dc891b7f4
+activityrule=2
+clientmachine=localhost
+clientmachinematch=0
+wmclass=zeal
+wmclasscomplete=false
+wmclassmatch=1
+
+[3]
+Description=Application settings for kmail2
+activity=cf2836ae-46b7-4413-90d1-68f2414ec832
+activityrule=2
+clientmachine=localhost
+clientmachinematch=0
+wmclass=kmail kmail2
+wmclasscomplete=true
+wmclassmatch=1
+
+[4]
+Description=Application settings for korganizer
+activity=cf2836ae-46b7-4413-90d1-68f2414ec832
+activityrule=2
+clientmachine=localhost
+clientmachinematch=0
+wmclass=korganizer
+wmclasscomplete=false
+wmclassmatch=1
+
+[5]
+Description=Window settings for korganizer
+clientmachine=localhost
+clientmachinematch=0
+maximizehoriz=false
+maximizehorizrule=2
+maximizevert=false
+maximizevertrule=2
+size=774,386
+sizerule=2
+title=Changing Recurring Item — KOrganizer
+titlematch=1
+types=32
+wmclass=korganizer
+wmclasscomplete=false
+wmclassmatch=1
+
+[6]
+Description=Konsole for Development
+activity=f8954c15-c2b5-4cc6-8409-4b1dc891b7f4
+activityrule=2
+clientmachine=localhost
+clientmachinematch=0
+title=tmux
+titlematch=2
+wmclass=konsole
+wmclasscomplete=false
+wmclassmatch=1
+
+[7]
+Description=Application settings for\s
+activity=7e98d366-8bdd-411c-8bd8-17585a5fda1b
+activityrule=2
+clientmachine=arno.jalcine
+clientmachinematch=0
+title=Butter
+titlematch=2
+types=1
+wmclass=
+wmclasscomplete=false
+wmclassmatch=1
+
+[8]
+Description=Minecraft
+activity=7e98d366-8bdd-411c-8bd8-17585a5fda1b
+activityrule=2
+clientmachine=arno.jalcine
+clientmachinematch=0
+desktop=3
+desktoprule=2
+noborder=true
+noborderrule=2
+opacityinactive=100
+opacityinactiverule=2
+title=Minecraft 1.10.2
+titlematch=0
+types=1
+wmclass=minecraft
+wmclasscomplete=true
+wmclassmatch=1
+
+[9]
+Description=Steam
+activity=7e98d366-8bdd-411c-8bd8-17585a5fda1b
+activityrule=2
+noborder=true
+noborderrule=2
+title=Steam
+titlematch=2
+types=1
+wmclass=steam
+wmclasscomplete=true
+wmclassmatch=2
+
+[General]
+count=10
