@@ -1,5 +1,5 @@
 [Compositing]
-AnimationSpeed=3
+AnimationSpeed=1
 Backend=OpenGL
 Enabled=true
 GLColorCorrection=true
@@ -73,7 +73,7 @@ blurEnabled=false
 contrastEnabled=false
 demandsattentioncurrentdesktopEnabled=true
 desktopchangeosdEnabled=true
-diminactiveEnabled=true
+diminactiveEnabled[$d]
 dimscreenEnabled=true
 enforcedecoEnabled=true
 highlightwindowEnabled=true
@@ -103,7 +103,7 @@ count=0
 
 [TabBox]
 ActivitiesMode=0
-ApplicationsMode=1
+ApplicationsMode=0
 BorderActivate=9
 BorderAlternativeActivate=9
 DesktopLayout=org.kde.breeze.desktop
@@ -113,9 +113,9 @@ HighlightWindows=false
 LayoutName=org.kde.breeze.desktop
 MinimizedMode=0
 MultiScreenMode=0
-ShowDesktopMode=1
+ShowDesktopMode=0
 ShowTabBox=true
-SwitchingMode=0
+SwitchingMode=1
 
 [TabBoxAlternative]
 ActivitiesMode=1
@@ -127,7 +127,7 @@ MinimizedMode=0
 MultiScreenMode=0
 ShowDesktopMode=0
 ShowTabBox=true
-SwitchingMode=0
+SwitchingMode=1
 
 [Windows]
 ActiveMouseScreen=true
@@ -170,4 +170,4 @@ ButtonsOnLeft=MS
 ButtonsOnRight=HIAX
 CloseOnDoubleClickOnMenu=false
 library=org.kde.kwin.aurorae
-theme=__aurorae__svg__next-aurorae
+theme=__aurorae__svg__Yoxydaze
