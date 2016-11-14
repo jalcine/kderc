@@ -1,0 +1,9 @@
+[Defaults]
+Profile=Default
+
+[PROFILE_Default]
+EmailAddress=yo@jacky.wtf
+FullName=Jacky Alciné
+Organization=Jacky Alciné
+ReplyAddr=Jacky Alciné <yo@jacky.wtf>
+ServerType=

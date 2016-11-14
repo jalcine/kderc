@@ -1,20 +1,20 @@
 [Compositing]
-AnimationSpeed=1
+AnimationSpeed=2
 Backend=OpenGL
 Enabled=true
-GLColorCorrection=true
+GLColorCorrection=false
 GLCore=true
-GLPlatformInterface=glx
+GLPlatformInterface=egl
 GLPreferBufferSwap=a
-GLTextureFilter=2
+GLTextureFilter=1
 HiddenPreviews=5
 OpenGLIsUnsafe=false
 UnredirectFullscreen=false
 XRenderSmoothScale=true
 
 [Desktops]
-Number=2
-Rows=1
+Number=4
+Rows=2
 
 [Effect-CoverSwitch]
 TabBox=false
@@ -71,6 +71,7 @@ CommandWindowWheel=Scroll
 [Plugins]
 blurEnabled=false
 contrastEnabled=false
+cubeslideEnabled=false
 demandsattentioncurrentdesktopEnabled=true
 desktopchangeosdEnabled=true
 diminactiveEnabled[$d]
@@ -78,12 +79,14 @@ dimscreenEnabled=true
 enforcedecoEnabled=true
 highlightwindowEnabled=true
 kwin4_effect_fadeEnabled=false
+kwin4_effect_fadedesktopEnabled=false
 kwin4_effect_scaleinEnabled=true
 kwin4_effect_translucencyEnabled=false
 minimizeallEnabled=true
 mouseclickEnabled=true
 screenSnapping5Enabled=true
 sheetEnabled=true
+slideEnabled=true
 snaphelperEnabled=true
 synchronizeskipswitcherEnabled=true
 videowallEnabled=false
@@ -165,9 +168,9 @@ TitlebarDoubleClickCommand=Maximize
 WindowSnapZone=10
 
 [org.kde.kdecoration2]
-BorderSize=NoSides
+BorderSize=Tiny
 ButtonsOnLeft=MS
 ButtonsOnRight=HIAX
 CloseOnDoubleClickOnMenu=false
 library=org.kde.kwin.aurorae
-theme=__aurorae__svg__Yoxydaze
+theme=__aurorae__svg__Papirus

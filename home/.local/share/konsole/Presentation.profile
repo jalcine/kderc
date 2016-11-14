@@ -1,6 +1,6 @@
 [Appearance]
-ColorScheme=Tomorrow
-Font=Meslo LG S DZ for Powerline,15,-1,5,50,0,0,0,0,0
+ColorScheme=Arc
+Font=Fira Code,15,-1,0,50,0,0,0,0,0
 
 [General]
 Name=Presentation
