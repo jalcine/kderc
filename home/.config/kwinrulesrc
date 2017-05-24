@@ -1,12 +1,17 @@
 [1]
-Description[$d]
+Description=Window settings for kwalletd5
 activity[$d]
 activityrule[$d]
-clientmachine[$d]
-clientmachinematch[$d]
-wmclass[$d]
-wmclasscomplete[$d]
-wmclassmatch[$d]
+clientmachine=localhost
+clientmachinematch=0
+placement=Centered
+placementrule=2
+title=KDE Wallet Service
+titlematch=1
+types=32
+wmclass=kwalletd5
+wmclasscomplete=false
+wmclassmatch=1
 
 [10]
 Description[$d]
@@ -123,4 +128,4 @@ wmclasscomplete[$d]
 wmclassmatch[$d]
 
 [General]
-count=0
+count=1

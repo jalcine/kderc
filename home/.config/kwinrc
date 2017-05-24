@@ -1,5 +1,5 @@
 [Compositing]
-AnimationSpeed=2
+AnimationSpeed=3
 Backend=OpenGL
 Enabled=true
 GLColorCorrection=false
@@ -14,7 +14,7 @@ XRenderSmoothScale=true
 
 [Desktops]
 Number=4
-Rows=2
+Rows=1
 
 [Effect-CoverSwitch]
 TabBox=false
@@ -32,10 +32,16 @@ BorderActivate=6
 TabBox=false
 TabBoxAlternative=false
 
+[Effect-Magnifier]
+InitialZoom=1
+
 [Effect-PresentWindows]
 BorderActivate=9
 BorderActivateAll=7
 BorderActivateClass=9
+
+[Effect-Resize]
+Outline=true
 
 [Effect-Zoom]
 InitialZoom=1
@@ -78,19 +84,26 @@ diminactiveEnabled[$d]
 dimscreenEnabled=true
 enforcedecoEnabled=true
 highlightwindowEnabled=true
+kwin4_effect_eyeonscreenEnabled[$d]
 kwin4_effect_fadeEnabled=false
 kwin4_effect_fadedesktopEnabled=false
 kwin4_effect_scaleinEnabled=true
 kwin4_effect_translucencyEnabled=false
+kwin4_effect_windowapertureEnabled=false
+magnifierEnabled[$d]
 minimizeallEnabled=true
+minimizeanimationEnabled=false
 mouseclickEnabled=true
+resizeEnabled[$d]
 screenSnapping5Enabled=true
 sheetEnabled=true
 slideEnabled=true
 snaphelperEnabled=true
 synchronizeskipswitcherEnabled=true
+trackmouseEnabled=true
 videowallEnabled=false
 windowgeometryEnabled=true
+zoomEnabled[$d]
 
 [Script-desktopchangeosd]
 PopupHideDelay=300
@@ -112,7 +125,7 @@ BorderAlternativeActivate=9
 DesktopLayout=org.kde.breeze.desktop
 DesktopListLayout=org.kde.breeze.desktop
 DesktopMode=0
-HighlightWindows=false
+HighlightWindows=true
 LayoutName=org.kde.breeze.desktop
 MinimizedMode=0
 MultiScreenMode=0
@@ -128,7 +141,7 @@ HighlightWindows=true
 LayoutName=org.kde.breeze.desktop
 MinimizedMode=0
 MultiScreenMode=0
-ShowDesktopMode=0
+ShowDesktopMode=1
 ShowTabBox=true
 SwitchingMode=1
 
@@ -149,7 +162,7 @@ ElectricBorderDelay=150
 ElectricBorderMaximize=true
 ElectricBorderTiling=true
 ElectricBorders=1
-FocusPolicy=FocusFollowsMouse
+FocusPolicy=ClickToFocus
 FocusStealingPreventionLevel=1
 GeometryTip=true
 HideUtilityWindowsForInactive=true
@@ -168,9 +181,9 @@ TitlebarDoubleClickCommand=Maximize
 WindowSnapZone=10
 
 [org.kde.kdecoration2]
-BorderSize=Tiny
+BorderSize=NoSides
 ButtonsOnLeft=MS
 ButtonsOnRight=HIAX
 CloseOnDoubleClickOnMenu=false
 library=org.kde.kwin.aurorae
-theme=__aurorae__svg__Papirus
+theme=__aurorae__svg__Arc

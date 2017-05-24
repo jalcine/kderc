@@ -16,21 +16,26 @@ ShowWindowTitleOnTitleBar=true
 [MainWindow]
 Height 1024=880
 Height 1080=756
-Height 1200=572
-Height 1920=1920
-Height 900=772
+Height 1200=847
+Height 1920=555
+Height 900=847
 MenuBar=Disabled
-State=AAAA/wAAAAD9AAAAAAAAAp8AAAMUAAAABAAAAAQAAAAIAAAACPwAAAAA
+State=AAAA/wAAAAD9AAAAAAAABkAAAANTAAAABAAAAAQAAAAIAAAACPwAAAAA
 ToolBarsMovable=Disabled
-Width 1200=1200
+Width 1200=1064
 Width 1280=1274
-Width 1600=1420
-Width 1920=1060
+Width 1600=1598
+Width 1920=1598
 Window-Maximized 1080x1920=true
+Window-Maximized 1200x1600=true
 Window-Maximized 1200x1920=true
+Window-Maximized 1920x1200=true
 Window-Maximized 720x1280=true
 Window-Maximized 900x1440=true
-Window-Maximized 900x1600=false
+Window-Maximized 900x1600=true
+
+[Notification Messages]
+CloseAllTabs=true
 
 [TabBar]
 NewTabBehavior=PutNewTabAfterCurrentTab

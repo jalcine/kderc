@@ -6,28 +6,29 @@ Default Identity=0
 
 [Identity #0]
 Attach Vcard=false
+Autocorrection Language=en_US
 Default Domain=shuri
 Dictionary=American English (United States)
 Disable Fcc=false
-Drafts=5
+Drafts=70
 Email Address=yo@jacky.wtf
 Email Aliases=warden@knottybynature.org,jackyalcine@gmail.com,damn.you@black.af,yo@jacky.wtf
-Fcc=8
+Fcc=7
 Identity=Primary
 Image Location=/home/tchalla/.local/share/emailidentities/0/
-Inline Signature=<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Jacky Alciné</p>\n<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">https://jacky.wtf</p>\n<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>\n<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">#BlackLivesMatter #NoDAPL</p>\n<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">I'm looking for work! Read more: https://jacky.wtf/weblog/back-on-the-market/</p>\n<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>\n<hr />\n<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Q: Why is this email five sentences or less?</p>\n<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">A: http://five.sentenc.es</p></body></html>
+Inline Signature=<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Jacky Alciné</p>\n<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">https://jacky.wtf</p>\n<hr />\n<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Q: Why is this email five sentences or less?</p>\n<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">A: http://five.sentenc.es</p></body></html>
 Inlined Html=true
 Name=Jacky Alciné
 Organization=Jacky Alciné
-PGP Encryption Key=E002E6A6752A9800CD7F4EA54EC8A58B973ACB94
+PGP Encryption Key=145482BAAD8A2950B790CAE383FC998FF7D20737
 PGP Signing Key=145482BAAD8A2950B790CAE383FC998FF7D20737
 Pgp Auto Sign=true
 Preferred Crypto Message Format=openpgp/mime
 Reply-To Address=Jacky Alciné <yo@jacky.wtf>
 Signature Enabled=true
 Signature Type=inline
-Templates=9
-Transport=1409473609
+Templates=71
+Transport[$d]
 VCardFile=/home/tchalla/.local/share/kmail2/.vcf
 X-FaceEnabled=false
 uoid=0
