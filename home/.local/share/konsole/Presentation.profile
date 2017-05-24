@@ -1,5 +1,5 @@
 [Appearance]
-ColorScheme=mdark
+ColorScheme=base16-tomorrow
 Font=monoOne,15,-1,5,50,0,0,0,0,0
 
 [General]

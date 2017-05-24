@@ -1,8 +1,8 @@
 [Appearance]
 AntiAliasFonts=true
 BoldIntense=true
-ColorScheme=Molokai
-Font=monoOne,10,-1,5,50,0,0,0,0,0
+ColorScheme=nord
+Font=Inconsolata-g for Powerline,9,-1,5,57,0,0,0,0,0
 
 [General]
 Directory=~/code
@@ -12,6 +12,11 @@ Name=Regular
 Parent=FALLBACK/
 RemoteTabTitleFormat=%w - (%u) %H
 
+[Interaction Options]
+DropUrlsAsText=true
+OpenLinksByDirectClickEnabled=true
+TrimTrailingSpacesInSelectedText=true
+
 [Keyboard]
 KeyBindings=linux
 
@@ -20,6 +25,6 @@ HistoryMode=1
 ScrollBarPosition=2
 
 [Terminal Features]
-BidiRenderingEnabled=false
+BidiRenderingEnabled=true
 BlinkingCursorEnabled=true
 FlowControlEnabled=false
