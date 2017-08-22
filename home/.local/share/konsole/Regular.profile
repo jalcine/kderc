@@ -1,11 +1,13 @@
 [Appearance]
 AntiAliasFonts=true
 BoldIntense=true
-ColorScheme=nord
-Font=Inconsolata-g for Powerline,9,-1,5,57,0,0,0,0,0
+ColorScheme=TomorrowNightBright
+Font=Fira Code,9,-1,5,50,0,0,0,0,0
+UseFontLineChararacters=true
 
 [Cursor Options]
 CursorShape=0
+UseCustomCursorColor=false
 
 [General]
 Directory=~/code
@@ -20,15 +22,17 @@ AutoCopySelectedText=true
 DropUrlsAsText=true
 OpenLinksByDirectClickEnabled=true
 TrimTrailingSpacesInSelectedText=true
+UnderlineFilesEnabled=true
 
 [Keyboard]
-KeyBindings=linux
+KeyBindings=default
 
 [Scrolling]
-HistoryMode=2
+HistoryMode=0
 ScrollBarPosition=2
 
 [Terminal Features]
-BidiRenderingEnabled=true
+BidiRenderingEnabled=false
 BlinkingCursorEnabled=true
 FlowControlEnabled=false
+UrlHintsModifiers=234881024

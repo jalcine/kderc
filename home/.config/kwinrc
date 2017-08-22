@@ -4,17 +4,18 @@ Backend=OpenGL
 Enabled=true
 GLColorCorrection=false
 GLCore=true
-GLPlatformInterface=egl
+GLPlatformInterface=glx
 GLPreferBufferSwap=a
-GLTextureFilter=1
+GLTextureFilter=0
 HiddenPreviews=5
 OpenGLIsUnsafe=false
 UnredirectFullscreen=false
+WindowsBlockCompositing=true
 XRenderSmoothScale=true
 
 [Desktops]
 Number=4
-Rows=1
+Rows=2
 
 [Effect-CoverSwitch]
 TabBox=false
@@ -26,7 +27,7 @@ BorderActivateCylinder=9
 BorderActivateSphere=9
 
 [Effect-DesktopGrid]
-BorderActivate=6
+BorderActivate=0
 
 [Effect-FlipSwitch]
 TabBox=false
@@ -37,7 +38,7 @@ InitialZoom=1
 
 [Effect-PresentWindows]
 BorderActivate=9
-BorderActivateAll=7
+BorderActivateAll=4,7
 BorderActivateClass=9
 
 [Effect-Resize]
@@ -50,9 +51,9 @@ InitialZoom=1
 Bottom=None
 BottomLeft=None
 BottomRight=None
-Left=None
+Left=ShowDesktop
 Right=None
-Top=ShowDesktop
+Top=None
 TopLeft=None
 TopRight=LockScreen
 
@@ -182,7 +183,7 @@ WindowSnapZone=10
 
 [org.kde.kdecoration2]
 BorderSize=NoSides
-ButtonsOnLeft=MS
+ButtonsOnLeft=
 ButtonsOnRight=HIAX
 CloseOnDoubleClickOnMenu=false
 library=org.kde.kwin.aurorae

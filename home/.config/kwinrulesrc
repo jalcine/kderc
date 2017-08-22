@@ -1,17 +1,23 @@
 [1]
-Description[$d]
-activity[$d]
-activityrule[$d]
-clientmachine[$d]
-clientmachinematch[$d]
-placement[$d]
-placementrule[$d]
+Description=kwalletd5
+above=true
+aboverule=2
+activity=4cc29549-41c4-4e6b-9ba9-b61a1df6474b
+activityrule=2
+clientmachine=localhost
+clientmachinematch=0
+desktop=-1
+desktoprule=2
+fpplevel=3
+fpplevelrule=2
+placement=Centered
+placementrule=2
 title[$d]
 titlematch[$d]
 types[$d]
-wmclass[$d]
-wmclasscomplete[$d]
-wmclassmatch[$d]
+wmclass=kwalletd5
+wmclasscomplete=false
+wmclassmatch=1
 
 [10]
 Description[$d]
@@ -128,4 +134,4 @@ wmclasscomplete[$d]
 wmclassmatch[$d]
 
 [General]
-count=0
+count=1

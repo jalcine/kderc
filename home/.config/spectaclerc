@@ -1,12 +1,18 @@
 [General]
+copySaveLocation=true
 default-save-location[$e]=$HOME/Pictures/Snapshots/
 last-saved-to[$e]=$HOME/Pictures/Snapshots
 save-filename-format=Screenshot_%Y%M%D_%H%m%S
 
 [GuiConfig]
 captureModeIndex=4
+cropRegion=2048,600,354,349
+dynamicSaveButton=true
 includeDecorations=false
 includePointer=false
+lastUsedSaveMode=0
+rememberLastRectangularRegion=true
 transientOnly=false
+useLightMaskColour=true
 waitCaptureOnClick=false
-window-position=439,249
+window-position=609,284

@@ -9,11 +9,11 @@ Attach Vcard=false
 Autocorrection Language=en_US
 Default Domain=shuri
 Dictionary=American English (United States)
-Disable Fcc=false
+Disable Fcc=true
 Drafts=70
 Email Address=yo@jacky.wtf
 Email Aliases=warden@knottybynature.org,jackyalcine@gmail.com,damn.you@black.af,yo@jacky.wtf
-Fcc=7
+Fcc=140
 Identity=Primary
 Image Location=/home/tchalla/.local/share/emailidentities/0/
 Inline Signature=<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Jacky Alciné</p>\n<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">https://jacky.wtf</p>\n<hr />\n<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Q: Why is this email five sentences or less?</p>\n<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">A: http://five.sentenc.es</p></body></html>
