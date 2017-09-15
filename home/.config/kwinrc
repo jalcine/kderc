@@ -30,7 +30,7 @@ BorderActivateSphere=9
 BorderActivate=0
 
 [Effect-FlipSwitch]
-TabBox=false
+TabBox=true
 TabBoxAlternative=false
 
 [Effect-Magnifier]
@@ -78,12 +78,14 @@ CommandWindowWheel=Scroll
 [Plugins]
 blurEnabled=false
 contrastEnabled=false
+coverswitchEnabled=true
 cubeslideEnabled=false
 demandsattentioncurrentdesktopEnabled=true
 desktopchangeosdEnabled=true
 diminactiveEnabled[$d]
 dimscreenEnabled=true
 enforcedecoEnabled=true
+flipswitchEnabled=true
 highlightwindowEnabled=true
 kwin4_effect_eyeonscreenEnabled[$d]
 kwin4_effect_fadeEnabled=false
@@ -127,7 +129,7 @@ DesktopLayout=org.kde.breeze.desktop
 DesktopListLayout=org.kde.breeze.desktop
 DesktopMode=0
 HighlightWindows=true
-LayoutName=org.kde.breeze.desktop
+LayoutName=compact
 MinimizedMode=0
 MultiScreenMode=0
 ShowDesktopMode=0
@@ -186,5 +188,5 @@ BorderSize=NoSides
 ButtonsOnLeft=
 ButtonsOnRight=HIAX
 CloseOnDoubleClickOnMenu=false
-library=org.kde.kwin.aurorae
-theme=__aurorae__svg__Arc
+library=org.kde.breeze
+theme=

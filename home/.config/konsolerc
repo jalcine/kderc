@@ -1,16 +1,16 @@
 [Desktop Entry]
-DefaultProfile=Regular.profile
+DefaultProfile=Default.profile
 
 [Favorite Profiles]
-Favorites=/home/okoye/.local/share/konsole/Regular.profile,/home/okoye/.local/share/konsole/Presentation.profile,/home/okoye/.local/share/konsole/Clean.profile
+Favorites=
 
 [FileDialogSize]
 Height 1200=480
 Width 1920=640
 
 [FileLocation]
-scrollbackUseCacheLocation=false
-scrollbackUseSystemLocation=true
+scrollbackUseCacheLocation=true
+scrollbackUseSystemLocation=false
 
 [KFileDialog Settings]
 Recent Files[$e]=file://$HOME/Pictures/Wallpapers/megaman.jpg,file://$HOME/Pictures/Wallpapers/megaman.jpg
@@ -20,27 +20,28 @@ Recent URLs[$e]=file://$HOME/Pictures/Wallpapers/
 AllowMenuAccelerators=true
 ShowMenuBarByDefault=false
 ShowWindowTitleOnTitleBar=true
+UseSingleInstance=true
 
 [MainWindow]
 Height 1024=880
 Height 1080=1055
-Height 1200=1027
+Height 1200=823
 Height 1920=555
-Height 900=759
-MenuBar=Disabled
-State=AAAA/wAAAAD9AAAAAAAABGYAAARWAAAABAAAAAQAAAAIAAAACPwAAAAA
+Height 900=900
+MenuBar=Enabled
+State=AAAA/wAAAAD9AAAAAAAABkAAAANDAAAABAAAAAQAAAAIAAAACPwAAAAA
 ToolBarsMovable=Disabled
 Width 1200=1064
 Width 1280=1274
-Width 1600=1391
-Width 1920=1391
+Width 1600=1600
+Width 1920=1272
 Window-Maximized 1080x1920=false
 Window-Maximized 1200x1600=true
-Window-Maximized 1200x1920=false
+Window-Maximized 1200x1920=true
 Window-Maximized 1920x1200=true
 Window-Maximized 720x1280=true
 Window-Maximized 900x1440=true
-Window-Maximized 900x1600=false
+Window-Maximized 900x1600=true
 
 [Notification Messages]
 CloseAllTabs=true

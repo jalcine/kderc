@@ -5,14 +5,14 @@ Sound=
 TTS=
 
 [Event/BellVisible]
-Action=
+Action=Popup
 Execute=
 Logfile=
 Sound=
 TTS=
 
 [Event/Finished]
-Action=
+Action=Popup
 Execute=
 Logfile=
 Sound=

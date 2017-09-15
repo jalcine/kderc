@@ -6,7 +6,7 @@ save-filename-format=Screenshot_%Y%M%D_%H%m%S
 
 [GuiConfig]
 captureModeIndex=4
-cropRegion=2048,600,354,349
+cropRegion=961,167,328,562
 dynamicSaveButton=true
 includeDecorations=false
 includePointer=false
@@ -15,4 +15,4 @@ rememberLastRectangularRegion=true
 transientOnly=false
 useLightMaskColour=true
 waitCaptureOnClick=false
-window-position=609,284
+window-position=133,256
