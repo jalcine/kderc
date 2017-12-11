@@ -2,10 +2,12 @@
 DefaultProfile=Default.profile
 
 [Favorite Profiles]
-Favorites=
+Favorites=Default.profile,Dark.profile,Light.profile
 
 [FileDialogSize]
 Height 1200=480
+Height 900=480
+Width 1600=640
 Width 1920=640
 
 [FileLocation]
@@ -13,8 +15,8 @@ scrollbackUseCacheLocation=true
 scrollbackUseSystemLocation=false
 
 [KFileDialog Settings]
-Recent Files[$e]=file://$HOME/Pictures/Wallpapers/megaman.jpg,file://$HOME/Pictures/Wallpapers/megaman.jpg
-Recent URLs[$e]=file://$HOME/Pictures/Wallpapers/
+Recent Files[$e]=file:$HOME/Pictures/Wallpapers/megaman.jpg,file:///usr/share/sounds/purple/send.wav
+Recent URLs[$e]=file:$HOME/Pictures/Wallpapers/,file:///usr/share/sounds/purple/
 
 [KonsoleWindow]
 AllowMenuAccelerators=true
@@ -24,24 +26,26 @@ UseSingleInstance=true
 
 [MainWindow]
 Height 1024=880
-Height 1080=1055
-Height 1200=823
+Height 1080=987
+Height 1200=987
 Height 1920=555
-Height 900=900
+Height 900=775
 MenuBar=Disabled
-State=AAAA/wAAAAD9AAAAAAAABkAAAANgAAAABAAAAAQAAAAIAAAACPwAAAAA
+State=AAAA/wAAAAD9AAAAAAAABkAAAANqAAAABAAAAAQAAAAIAAAACPwAAAAA
 ToolBarsMovable=Disabled
 Width 1200=1064
 Width 1280=1274
-Width 1600=1600
-Width 1920=1272
-Window-Maximized 1080x1920=false
+Width 1600=1278
+Width 1920=1716
+Window-Maximized 1024x1280=true
+Window-Maximized 1080x1920=true
 Window-Maximized 1200x1600=true
 Window-Maximized 1200x1920=true
 Window-Maximized 1920x1200=true
 Window-Maximized 720x1280=true
+Window-Maximized 864x1152=true
 Window-Maximized 900x1440=true
-Window-Maximized 900x1600=true
+Window-Maximized 900x1600=false
 
 [Notification Messages]
 CloseAllTabs=true
@@ -49,6 +53,9 @@ CloseAllTabs=true
 [Open-with settings]
 CompletionMode=5
 History=kleopatra
+
+[SearchSettings]
+SearchRegExpression=true
 
 [TabBar]
 NewTabBehavior=PutNewTabAfterCurrentTab

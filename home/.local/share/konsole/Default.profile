@@ -1,10 +1,11 @@
 [Appearance]
 BoldIntense=true
-ColorScheme=base16-apathy
-Font=FuraMonoForPowerline Nerd Font,8,-1,5,50,0,0,0,0,0
+ColorScheme=base16-default-dark
+Font=Hack,9,-1,5,50,0,0,0,0,0,Regular
 UseFontLineChararacters=true
 
 [General]
+Environment=TERM=xterm-256color,COLORTERM=truecolor
 Name=Default
 Parent=FALLBACK/
 
@@ -13,7 +14,7 @@ DropUrlsAsText=true
 UnderlineFilesEnabled=true
 
 [Scrolling]
-HistoryMode=0
+HistoryMode=2
 ScrollBarPosition=2
 
 [Terminal Features]

@@ -3,7 +3,7 @@ Profile=Default
 
 [PROFILE_Default]
 EmailAddress=yo@jacky.wtf
-FullName=Jacky Alcine
-Organization=Jacky Alciné
-ReplyAddr=Jacky Alciné <yo@jacky.wtf>
+FullName=jackyalcine
+Organization=jackyalcine
+ReplyAddr=jackyalcine <yo@jacky.wtf>
 ServerType=

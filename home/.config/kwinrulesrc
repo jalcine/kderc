@@ -1,11 +1,13 @@
 [1]
-Description[$d]
-above[$d]
-aboverule[$d]
+Description=Window settings for kwalletd5
+above=false
+aboverule=2
 activity[$d]
 activityrule[$d]
-clientmachine[$d]
-clientmachinematch[$d]
+clientmachine=localhost
+clientmachinematch=0
+decocolor[$d]
+decocolorrule[$d]
 desktop[$d]
 desktoprule[$d]
 fpplevel[$d]
@@ -14,14 +16,14 @@ fsplevel[$d]
 fsplevelrule[$d]
 placement[$d]
 placementrule[$d]
-title[$d]
-titlematch[$d]
+title=KDE Wallet Service
+titlematch=1
 type[$d]
 typerule[$d]
-types[$d]
-wmclass[$d]
-wmclasscomplete[$d]
-wmclassmatch[$d]
+types=32
+wmclass=kwalletd5
+wmclasscomplete=false
+wmclassmatch=1
 
 [10]
 Description[$d]
@@ -39,6 +41,8 @@ activity[$d]
 activityrule[$d]
 clientmachine[$d]
 clientmachinematch[$d]
+decocolor[$d]
+decocolorrule[$d]
 wmclass[$d]
 wmclasscomplete[$d]
 wmclassmatch[$d]
@@ -138,4 +142,4 @@ wmclasscomplete[$d]
 wmclassmatch[$d]
 
 [General]
-count=0
+count=1

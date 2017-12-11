@@ -1,10 +1,13 @@
 [Appearance]
+AntiAliasFonts=true
 BoldIntense=true
-ColorScheme=base16-onedark
-Font=FuraMonoForPowerline Nerd Font,8,-1,5,50,0,0,0,0,0
-UseFontLineChararacters=true
+ColorScheme=base16-ir-black
+Font=mononoki Nerd Font Mono,10,-1,5,50,0,0,0,0,0,Regular
+UseFontLineChararacters=false
 
 [General]
+Command=/bin/bash
+Environment=TERM=xterm-256color,COLORTERM=truecolor,BASE16_THEME=base16-classic-dark
 Name=Dark
 Parent=FALLBACK/
 
@@ -13,7 +16,7 @@ DropUrlsAsText=true
 UnderlineFilesEnabled=true
 
 [Scrolling]
-HistoryMode=0
+HistoryMode=2
 ScrollBarPosition=2
 
 [Terminal Features]

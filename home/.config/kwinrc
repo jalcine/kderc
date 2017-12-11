@@ -1,12 +1,12 @@
 [Compositing]
-AnimationSpeed=3
+AnimationSpeed=2
 Backend=OpenGL
 Enabled=true
 GLColorCorrection=false
 GLCore=true
 GLPlatformInterface=glx
 GLPreferBufferSwap=a
-GLTextureFilter=0
+GLTextureFilter=2
 HiddenPreviews=5
 OpenGLIsUnsafe=false
 UnredirectFullscreen=false
@@ -25,13 +25,23 @@ TabBoxAlternative=false
 BorderActivate=9
 BorderActivateCylinder=9
 BorderActivateSphere=9
+TouchBorderActivate=9
+TouchBorderActivateCylinder=9
+TouchBorderActivateSphere=9
 
 [Effect-DesktopGrid]
 BorderActivate=0
+TouchBorderActivate=9
+
+[Effect-DimInactive]
+DimByGroup=false
+DimDesktop=true
+DimPanels=true
+Strength=15
 
 [Effect-FlipSwitch]
-TabBox=true
-TabBoxAlternative=false
+TabBox=false
+TabBoxAlternative=true
 
 [Effect-Magnifier]
 InitialZoom=1
@@ -40,6 +50,9 @@ InitialZoom=1
 BorderActivate=9
 BorderActivateAll=4,7
 BorderActivateClass=9
+TouchBorderActivate=7
+TouchBorderActivateAll=9
+TouchBorderActivateClass=9
 
 [Effect-Resize]
 Outline=true
@@ -49,7 +62,7 @@ InitialZoom=1
 
 [ElectricBorders]
 Bottom=None
-BottomLeft=None
+BottomLeft=ApplicationLauncher
 BottomRight=None
 Left=ShowDesktop
 Right=None
@@ -76,23 +89,23 @@ CommandWindow3=Activate and pass click
 CommandWindowWheel=Scroll
 
 [Plugins]
-blurEnabled=false
+blurEnabled=true
 contrastEnabled=false
 coverswitchEnabled=true
 cubeslideEnabled=false
 demandsattentioncurrentdesktopEnabled=true
 desktopchangeosdEnabled=true
-diminactiveEnabled[$d]
+diminactiveEnabled=true
 dimscreenEnabled=true
 enforcedecoEnabled=true
 flipswitchEnabled=true
 highlightwindowEnabled=true
-kwin4_effect_eyeonscreenEnabled[$d]
+kwin4_effect_eyeonscreenEnabled=true
 kwin4_effect_fadeEnabled=false
 kwin4_effect_fadedesktopEnabled=false
 kwin4_effect_scaleinEnabled=true
-kwin4_effect_translucencyEnabled=false
-kwin4_effect_windowapertureEnabled=false
+kwin4_effect_translucencyEnabled[$d]
+kwin4_effect_windowapertureEnabled[$d]
 magnifierEnabled[$d]
 minimizeallEnabled=true
 minimizeanimationEnabled=false
@@ -106,11 +119,16 @@ synchronizeskipswitcherEnabled=true
 trackmouseEnabled=true
 videowallEnabled=false
 windowgeometryEnabled=true
+wobblywindowsEnabled=true
 zoomEnabled[$d]
 
 [Script-desktopchangeosd]
 PopupHideDelay=300
 TextOnly=false
+
+[Script-minimizeall]
+BorderActivate=9
+TouchBorderActivate=9
 
 [SubSession: 82fa41bc-5fa9-447b-98bf-155b1cea8b3d]
 active=-1
@@ -128,13 +146,15 @@ BorderAlternativeActivate=9
 DesktopLayout=org.kde.breeze.desktop
 DesktopListLayout=org.kde.breeze.desktop
 DesktopMode=0
-HighlightWindows=true
-LayoutName=compact
+HighlightWindows=false
+LayoutName=org.kde.breeze.desktop
 MinimizedMode=0
 MultiScreenMode=0
 ShowDesktopMode=0
 ShowTabBox=true
-SwitchingMode=1
+SwitchingMode=0
+TouchBorderActivate=9
+TouchBorderAlternativeActivate=9
 
 [TabBoxAlternative]
 ActivitiesMode=1
@@ -148,6 +168,12 @@ ShowDesktopMode=1
 ShowTabBox=true
 SwitchingMode=1
 
+[TouchEdges]
+Bottom=None
+Left=None
+Right=None
+Top=None
+
 [Windows]
 ActiveMouseScreen=true
 AutoRaise=false
@@ -159,7 +185,7 @@ BorderlessMaximizedWindows=true
 CenterSnapZone=1
 ClickRaise=true
 DelayFocusInterval=300
-ElectricBorderCooldown=350
+ElectricBorderCooldown=250
 ElectricBorderCornerRatio=0.25
 ElectricBorderDelay=150
 ElectricBorderMaximize=true
@@ -174,7 +200,7 @@ MaximizeButtonLeftClickCommand=Maximize
 MaximizeButtonMiddleClickCommand=Maximize (vertical only)
 MaximizeButtonRightClickCommand=Maximize (horizontal only)
 NextFocusPrefersMouse=false
-Placement=Centered
+Placement=UnderMouse
 RollOverDesktops=true
 SeparateScreenFocus=true
 ShadeHover=false
@@ -184,9 +210,9 @@ TitlebarDoubleClickCommand=Maximize
 WindowSnapZone=10
 
 [org.kde.kdecoration2]
-BorderSize=NoSides
-ButtonsOnLeft=
-ButtonsOnRight=HIAX
+BorderSize=Large
+ButtonsOnLeft=XIA
+ButtonsOnRight=H
 CloseOnDoubleClickOnMenu=false
-library=org.kde.breeze
-theme=
+library=org.kde.kwin.aurorae
+theme=__aurorae__svg__Arc-Dark

@@ -1,18 +1,18 @@
 [General]
 copySaveLocation=true
-default-save-location[$e]=$HOME/Pictures/Snapshots/
-last-saved-to[$e]=$HOME/Pictures/Snapshots
+default-save-image-format=png
+default-save-location[$e]=$HOME/ownCloud/Photos/Snaphsots/
+last-saved-to[$e]=$HOME/ownCloud/Photos/Snaphsots
 save-filename-format=Screenshot_%Y%M%D_%H%m%S
 
 [GuiConfig]
 captureModeIndex=4
-cropRegion=961,167,328,562
+cropRegion=552,356,270,67
 dynamicSaveButton=true
-includeDecorations=false
-includePointer=false
+includeDecorations=true
+includePointer=true
 lastUsedSaveMode=0
 rememberLastRectangularRegion=true
-transientOnly=false
+transientOnly=true
 useLightMaskColour=true
-waitCaptureOnClick=false
-window-position=133,256
+window-position=50,50

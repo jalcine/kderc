@@ -1,0 +1,35 @@
+[FileDialogSize]
+Height 1080=785
+Width 1920=898
+
+[General]
+Number of Actions=0
+
+[KFileDialog Settings]
+Recent Files[$e]=file:$HOME/ownCloud/Photos/Wallpapers/zodiacal_beletsky_1900.jpg,file:$HOME/ownCloud/Photos/Wallpapers/wheel-in-wheel-1920.jpg
+Recent URLs[$e]=file:$HOME/ownCloud/Photos/Wallpapers/
+
+[PlasmaRunnerManager]
+pluginWhiteList=services,places,desktopsessions,PowerDevil,shell,bookmarks,recentdocuments,locations,baloosearch
+
+[PlasmaViews][Panel 2][Horizontal1920]
+thickness=36
+
+[PlasmaViews][Panel 22]
+alignment=132
+panelVisibility=2
+
+[PlasmaViews][Panel 22][Horizontal1920]
+thickness=36
+
+[PlasmaViews][Panel 22][Vertical1080]
+maxLength=755
+minLength=597
+thickness=50
+
+[ScreenConnectors]
+0=eDP-1
+1=DP-1
+
+[Updates]
+performed=/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/obsolete_kickoffrc.js
