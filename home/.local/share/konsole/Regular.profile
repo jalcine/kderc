@@ -1,1 +1,1 @@
-/home/ayize/.homesick/repos/kderc/home/.homesick/repos/kderc/home/.local/share/konsole/Regular.profile
+../../../.homesick/repos/kderc/home/.local/share/konsole/Regular.profile

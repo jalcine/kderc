@@ -1,12 +1,12 @@
 [Compositing]
-AnimationSpeed=2
+AnimationSpeed=1
 Backend=OpenGL
 Enabled=true
 GLColorCorrection=false
 GLCore=true
 GLPlatformInterface=glx
 GLPreferBufferSwap=a
-GLTextureFilter=2
+GLTextureFilter=1
 HiddenPreviews=5
 OpenGLIsUnsafe=false
 UnredirectFullscreen=false
@@ -31,7 +31,7 @@ TouchBorderActivateSphere=9
 
 [Effect-DesktopGrid]
 BorderActivate=0
-TouchBorderActivate=9
+TouchBorderActivate=4
 
 [Effect-DimInactive]
 DimByGroup=false
@@ -51,7 +51,7 @@ BorderActivate=9
 BorderActivateAll=4,7
 BorderActivateClass=9
 TouchBorderActivate=7
-TouchBorderActivateAll=9
+TouchBorderActivateAll=2
 TouchBorderActivateClass=9
 
 [Effect-Resize]
@@ -170,9 +170,9 @@ SwitchingMode=1
 
 [TouchEdges]
 Bottom=None
-Left=None
+Left=ActivityManager
 Right=None
-Top=None
+Top=LockScreen
 
 [Windows]
 ActiveMouseScreen=true
@@ -200,7 +200,7 @@ MaximizeButtonLeftClickCommand=Maximize
 MaximizeButtonMiddleClickCommand=Maximize (vertical only)
 MaximizeButtonRightClickCommand=Maximize (horizontal only)
 NextFocusPrefersMouse=false
-Placement=UnderMouse
+Placement=Centered
 RollOverDesktops=true
 SeparateScreenFocus=true
 ShadeHover=false
@@ -210,9 +210,9 @@ TitlebarDoubleClickCommand=Maximize
 WindowSnapZone=10
 
 [org.kde.kdecoration2]
-BorderSize=Large
+BorderSize=NoSides
 ButtonsOnLeft=XIA
-ButtonsOnRight=H
+ButtonsOnRight=NHM
 CloseOnDoubleClickOnMenu=false
 library=org.kde.kwin.aurorae
-theme=__aurorae__svg__Arc-Dark
+theme=__aurorae__svg__Breezemite_dark
