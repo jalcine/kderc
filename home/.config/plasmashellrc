@@ -1,16 +1,32 @@
+[Containments][22][General]
+AppletOrder=23
+
 [FileDialogSize]
 Height 1080=785
+Height 1200=480
 Width 1920=898
 
 [General]
 Number of Actions=0
 
 [KFileDialog Settings]
-Recent Files[$e]=file:$HOME/ownCloud/Photos/Wallpapers/zodiacal_beletsky_1900.jpg,file:$HOME/ownCloud/Photos/Wallpapers/wheel-in-wheel-1920.jpg
-Recent URLs[$e]=file:$HOME/ownCloud/Photos/Wallpapers/
+Recent Files[$e]=file:$HOME/Photos/Wallpapers/Star Trek Discovery/wp2198165.jpg,file:$HOME/Photos/Wallpapers/iron-man-mosaic-17312-2880x1800.jpg,file:$HOME/Photos/Wallpapers/Space/M33 3-2 flat sig.jpg
+Recent URLs[$e]=file:$HOME/Photos/Wallpapers/,file:$HOME/Photos/Wallpapers/Space/
+
+[PIMEventsPlugin]
+calendars=17,18,39,40,41,42,43,44,45,46,47,48,49,50,51,53,54,78,79,80,81,82,83,84,85,87,88,89,90,91,92,111,112,113
 
 [PlasmaRunnerManager]
 pluginWhiteList=services,places,desktopsessions,PowerDevil,shell,bookmarks,recentdocuments,locations,baloosearch
+
+[PlasmaViews][Panel 2][Horizontal1280]
+thickness=30
+
+[PlasmaViews][Panel 2][Horizontal1360]
+thickness=30
+
+[PlasmaViews][Panel 2][Horizontal1600]
+thickness=30
 
 [PlasmaViews][Panel 2][Horizontal1920]
 thickness=36
@@ -29,8 +45,8 @@ thickness=50
 
 [ScreenConnectors]
 0=eDP-1
-1=DP-1
-2=:0.0
+1=:0.0
+2=DP-1
 
 [Updates]
 performed=/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/obsolete_kickoffrc.js

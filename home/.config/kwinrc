@@ -1,5 +1,5 @@
 [Compositing]
-AnimationSpeed=1
+AnimationSpeed=2
 Backend=OpenGL
 Enabled=true
 GLColorCorrection=false
@@ -14,8 +14,8 @@ WindowsBlockCompositing=true
 XRenderSmoothScale=true
 
 [Desktops]
-Number=4
-Rows=2
+Number=2
+Rows=1
 
 [Effect-CoverSwitch]
 TabBox=false
@@ -31,7 +31,7 @@ TouchBorderActivateSphere=9
 
 [Effect-DesktopGrid]
 BorderActivate=0
-TouchBorderActivate=4
+TouchBorderActivate=9
 
 [Effect-DimInactive]
 DimByGroup=false
@@ -48,10 +48,10 @@ InitialZoom=1
 
 [Effect-PresentWindows]
 BorderActivate=9
-BorderActivateAll=4,7
+BorderActivateAll=7
 BorderActivateClass=9
-TouchBorderActivate=7
-TouchBorderActivateAll=2
+TouchBorderActivate=9
+TouchBorderActivateAll=7
 TouchBorderActivateClass=9
 
 [Effect-Resize]
@@ -170,9 +170,9 @@ SwitchingMode=1
 
 [TouchEdges]
 Bottom=None
-Left=ActivityManager
-Right=None
-Top=LockScreen
+Left=None
+Right=LockScreen
+Top=None
 
 [Windows]
 ActiveMouseScreen=true
@@ -212,7 +212,7 @@ WindowSnapZone=10
 [org.kde.kdecoration2]
 BorderSize=NoSides
 ButtonsOnLeft=XIA
-ButtonsOnRight=NHM
+ButtonsOnRight=HM
 CloseOnDoubleClickOnMenu=false
 library=org.kde.kwin.aurorae
-theme=__aurorae__svg__Breezemite_dark
+theme=__aurorae__svg__Yoxydaze-light

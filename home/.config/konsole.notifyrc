@@ -19,7 +19,7 @@ Logfile=
 TTS=
 
 [Event/BellVisible]
-Action=Sound|Popup
+Action=Popup
 Execute=
 Logfile=
 Sound=/usr/share/sounds/purple/send.wav

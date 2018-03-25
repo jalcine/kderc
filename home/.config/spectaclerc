@@ -1,20 +1,20 @@
 [General]
 copySaveLocation=true
 default-save-image-format=png
-default-save-location[$e]=$HOME/Pictures/Snaphsots
-last-saved-to[$e]=$HOME/Pictures/Snaphsots
+default-save-location[$e]=$HOME/.nextCloudSync/Photos/Snaphsots
+last-saved-to[$e]=$HOME/.nextCloudSync/Photos/Snaphsots
 save-filename-format=Screenshot_%Y%M%D_%H%m%S
 
 [GuiConfig]
 captureDelay=1
 captureModeIndex=4
-cropRegion=455,142,997,620
+cropRegion=571,530,544,294
 dynamicSaveButton=true
 includeDecorations=true
-includePointer=true
+includePointer=false
 lastUsedSaveMode=0
-onClickChecked=true
+onClickChecked=false
 rememberLastRectangularRegion=true
-transientOnly=true
+transientOnly=false
 useLightMaskColour=true
-window-position=796,421
+window-position=387,290
