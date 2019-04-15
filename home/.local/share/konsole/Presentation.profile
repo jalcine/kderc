@@ -1,1 +1,0 @@
-../../../.homesick/repos/kderc/home/.local/share/konsole/Presentation.profile

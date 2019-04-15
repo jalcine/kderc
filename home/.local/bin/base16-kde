@@ -1,0 +1,6 @@
+#!/usr/bin/env sh
+
+mkdir -p ~/.config/base16
+git clone https://github.com/cskeeters/base16-konsole ~/.config/base16/konsole
+
+cp -v ~/.config/base16/konsole/colorscheme/*.colorscheme ~/.local/share/konsole
