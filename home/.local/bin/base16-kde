@@ -1,6 +1,13 @@
 #!/usr/bin/env sh
 
 mkdir -p ~/.config/base16
-git clone https://github.com/cskeeters/base16-konsole ~/.config/base16/konsole
 
-cp -v ~/.config/base16/konsole/colorscheme/*.colorscheme ~/.local/share/konsole
+if [ ! -x ~/.config/base16/konsole ]; then
+  git clone https://github.com/cskeeters/base16-konsole ~/.config/base16/konsole
+else
+  cd ~/.config/base16/konsole || exit 10
+  git pull
+  cd - || exit 11
+fi
+
+cp -v ~/.config/base16/konsole/colorscheme-vim/*.colorscheme ~/.local/share/konsole
